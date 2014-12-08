@@ -1,0 +1,17 @@
+Create Results Loader Class
+	Functionality
+		SORTBY:
+			- Change sorting type variable.
+			- Call result loader function.
+		RESULT LOADER FUNCTION:
+			- If sorting type variable is equal to A to Z sorting
+				- Load results list TXT file
+				- For each line check if name is A - Z
+				- Put in array
+				- Add each results array file name to a new <li> as a <a> tag, with the href attribute equal to the file name.
+			- If sorting type variable is equal to Location sorting.
+				- 
+			- Load results list TXT file
+			- For each line check if name contains keyword
+				- If so add to results array
+			- Add each results array file name to a new <li> as a <a> tag, with the href attribute equal to the file name.
